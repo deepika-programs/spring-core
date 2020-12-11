@@ -1,0 +1,42 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+	<bean name="stu" class="com.deepika.Student">
+	
+		<property name="setAddress">
+			<set>
+				<value>Ambattur</value>
+				<value>Chennai</value>
+				<value>India</value>
+			</set>
+		</property>
+		
+		<property name="listAddress">
+			<list>
+				<value>Ambattur</value>
+				<value>Chennai</value>
+				<value>India</value>
+			</list>
+		</property>
+		
+		<property name="mapAddress">
+			<map>
+				<entry key="country" value="India"></entry>
+				<entry key="city" value="Chennai"></entry>
+				<entry key="area" value="Ambattur"></entry>
+			</map>
+		</property>
+		
+		<property name="propAddress">
+			<props>
+				<prop key="1">India</prop>
+				<prop key="2">Chennai</prop>
+				<prop key="3">Ambattur</prop>
+			</props>
+		</property>
+
+	</bean>
+
+</beans>

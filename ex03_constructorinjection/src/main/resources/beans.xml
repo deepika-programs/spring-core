@@ -1,0 +1,12 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+	<bean name="stu" class="com.deepika.Student">
+		<constructor-arg index="0" value="Deepika" />
+		<constructor-arg index="1" value="Chennai" />
+		<constructor-arg index="2" value="25" />
+	</bean>
+
+</beans>

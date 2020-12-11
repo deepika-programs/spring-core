@@ -1,0 +1,12 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+	<bean name="stu1,stu2,stu3" id="stu" class="com.deepika.Student">
+		<property name="fullname" value="deepika"></property>
+	</bean>
+
+	<alias name="stu" alias="s1"/>
+	<alias name="stu1" alias="s2"/>
+</beans>
