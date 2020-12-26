@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+	
+	<bean name="world" class="com.deepika.World">
+		<property name="msg1" value="Hello World 1"></property>
+		<property name="msg2" value="Hello World 2"></property>
+	</bean>
+	<bean class="com.deepika.BeanFactoryPostProcessorImpl" />
+	
+	
+</beans>

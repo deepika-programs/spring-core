@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd"
+	default-init-method="anynameInit" default-destroy-method="anynameDestroy"> <!-- Default bean life-cycle method -->
+	<!--if the default method exists in the bean, it will run. If not,  error will not  be thrown -->
+	
+	<bean name="world" class="com.deepika.World" />
+	
+	<bean name="india" class="com.deepika.India" />
+</beans>
